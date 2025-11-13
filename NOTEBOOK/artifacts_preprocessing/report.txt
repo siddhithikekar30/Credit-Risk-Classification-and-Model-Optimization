@@ -1,0 +1,8 @@
+Preprocessing report
+Original shape: (1, 12) (rows unknown here)
+Processed (encoded) shape: (32581, 27)
+Numeric cols (pre-encode): 7 | Categorical cols: 4
+Outlier handling: capped person_age > 100, person_emp_length > 80; IQR clip on person_income & loan_amnt
+Missing values: numeric->median, categorical->mode
+Encoding: One-Hot (no drop_first)
+Files: processed_all.csv, train.csv, val.csv, test.csv, feature_list.txt
