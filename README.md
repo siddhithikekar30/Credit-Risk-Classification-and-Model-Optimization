@@ -1,4 +1,4 @@
- """# 📘 Credit Risk Classification and Model Optimization  
+ # 📘 Credit Risk Classification and Model Optimization  
 
 This project develops a complete machine learning pipeline to predict loan default risk using a structured credit dataset. The workflow covers data exploration, preprocessing, feature engineering, baseline modeling, hyperparameter tuning, ROC-based threshold optimization, and SHAP explainability. The final tuned models achieved a performance lift from **0.72 ROC-AUC (Logistic baseline)** to **0.89 (XGBoost/LightGBM tuned)**, offering both accuracy and interpretability for real-world credit risk applications.
 
@@ -56,4 +56,4 @@ These insights enhance transparency and model trustworthiness for financial deci
 - Optuna-based hyperparameter tuning  
 - ROC-based thresholding  
 - SHAP interpretability
-"""
+
